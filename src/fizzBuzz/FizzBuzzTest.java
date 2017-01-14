@@ -31,4 +31,9 @@ public class FizzBuzzTest {
 	public void whenFizzBuzzIsGiven5ReturnBuzz() {
 		assertEquals("Buzz", fizzBuzz.fizz(5));
 	}
+	
+	@Test
+	public void whenFizzBuzzIsGiven15ReturnFizzBuzz(){
+		assertEquals("FizzBuzz", fizzBuzz.fizz(15));
+	}
 }
