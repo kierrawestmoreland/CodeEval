@@ -2,7 +2,6 @@ package fizzBuzz;
 
 import static org.junit.Assert.*;
 
-import org.junit.Before;
 import org.junit.Test;
 
 public class FizzBuzzTest {
@@ -23,17 +22,17 @@ public class FizzBuzzTest {
 	
 	@Test
 	public void whenFizzBuzzIsGiven3ReturnFizz() {
-		assertEquals("Fizz", fizzBuzz.fizz(3));
-		assertEquals("Fizz", fizzBuzz.fizz(6));
+		assertEquals("F", fizzBuzz.fizz(3));
+		assertEquals("F", fizzBuzz.fizz(6));
 	}
 	
 	@Test
 	public void whenFizzBuzzIsGiven5ReturnBuzz() {
-		assertEquals("Buzz", fizzBuzz.fizz(5));
+		assertEquals("B", fizzBuzz.fizz(5));
 	}
 	
 	@Test
 	public void whenFizzBuzzIsGiven15ReturnFizzBuzz(){
-		assertEquals("FizzBuzz", fizzBuzz.fizz(15));
+		assertEquals("FB", fizzBuzz.fizz(15));
 	}
 }

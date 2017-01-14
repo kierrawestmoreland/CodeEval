@@ -4,17 +4,18 @@ public class FizzBuzz {
 
 	public String fizz(Integer input) {
 		if(input % 3 == 0 && input % 5 == 0){
-			return "FizzBuzz";
+			return "FB";
 			
 		} else if (input % 3 == 0) {
-			return "Fizz";
+			return "F";
 			
 		}else if (input % 5 == 0) {
-			return "Buzz";
+			return "B";
 			
 		} else {
-			return input.toString();
+			return  input.toString();
 		}
+	
 	}
 
 
